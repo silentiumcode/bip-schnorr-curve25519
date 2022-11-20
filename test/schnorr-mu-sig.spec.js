@@ -9,7 +9,7 @@ const math = require('../src/math');
 const randomBytes = require('randombytes');
 const ecurve = require('ecurve');
 
-const curve = ecurve.getCurveByName('secp256k1');
+const curve = ecurve.getCurveByName('curve25519');
 
 const testVectors = require('./test-vectors-mu-sig.json');
 

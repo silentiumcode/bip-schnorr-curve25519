@@ -5,7 +5,7 @@ const BigInteger = require('bigi');
 const schnorr = require('../src/schnorr');
 const ecurve = require('ecurve');
 
-const curve = ecurve.getCurveByName('secp256k1');
+const curve = ecurve.getCurveByName('curve25519');
 const n = curve.n;
 
 const testVectors = require('./test-vectors-schnorr.json');

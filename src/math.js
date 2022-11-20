@@ -2,7 +2,7 @@ const BigInteger = require('bigi');
 const Buffer = require('safe-buffer').Buffer;
 const ecurve = require('ecurve');
 const randomBytes = require('randombytes');
-const curve = ecurve.getCurveByName('secp256k1');
+const curve = ecurve.getCurveByName('curve25519');
 const check = require('./check');
 const convert = require('./convert');
 

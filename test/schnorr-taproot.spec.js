@@ -4,7 +4,7 @@ const Buffer = require('safe-buffer').Buffer;
 const ecurve = require('ecurve');
 const taproot = require('../src/taproot');
 
-const curve = ecurve.getCurveByName('secp256k1');
+const curve = ecurve.getCurveByName('curve25519');
 const n = curve.n;
 
 function assertError(error, expectedMessage) {

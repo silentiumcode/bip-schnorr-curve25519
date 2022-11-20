@@ -7,7 +7,7 @@ const convert = require('../src/convert');
 const randomBytes = require('randombytes');
 const ecurve = require('ecurve');
 
-const curve = ecurve.getCurveByName('secp256k1');
+const curve = ecurve.getCurveByName('curve25519');
 const G = curve.G;
 const n = curve.n;
 

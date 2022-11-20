@@ -7,7 +7,7 @@ const Buffer = require('safe-buffer').Buffer;
 const ecurve = require('ecurve');
 
 const BATCH_SIZES = [1, 2, 4, 8, 16, 32, 64];
-const curve = ecurve.getCurveByName('secp256k1');
+const curve = ecurve.getCurveByName('curve25519');
 const G = curve.G;
 const n = curve.n;
 

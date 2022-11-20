@@ -1,6 +1,6 @@
 const Buffer = require('safe-buffer').Buffer;
 const ecurve = require('ecurve');
-const curve = ecurve.getCurveByName('secp256k1');
+const curve = ecurve.getCurveByName('curve25519');
 const math = require('./math');
 const convert = require('./convert');
 
